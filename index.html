@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpeg">
+
+    <!-- Inline CSS with Transitions -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: #e74c3c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin: 0;
+            border-bottom: 5px solid #c0392b;
+        }
+
+        h2 {
+            color: #2c3e50;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #95a5a6;
+            padding-bottom: 5px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #34495e;
+            color: white;
+        }
+
+        td {
+            background-color: #ecf0f1;
+            border-bottom: 1px solid #ddd;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        tr:hover td {
+            background-color: #f1c40f;
+            color: white;
+            cursor: pointer;
+        }
+
+        ul {
+            width: 50%;
+            margin: 20px auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        ul li {
+            background-color: #f39c12;
+            padding: 10px;
+            margin: 5px 0;
+            text-align: center;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        ul li:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            text-align: center;
+            width: 80%;
+            margin: 20px auto;
+            font-size: 1.1em;
+        }
+
+        span {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+
+        a {
+            color: #e74c3c;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #3498db;
+        }
+
+        hr {
+            width: 80%;
+            margin: 20px auto;
+            border: 0;
+            height: 1px;
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <h1>Welcome to The Indo-Chi</h1>
+
+    <!-- Menu Section -->
+    <h2>Our Menu</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th colspan="3">Starters</th>
+        </tr>
+        <tr>
+            <td>Butter Chicken</td>
+            <td>A rich and creamy curry made with tender chicken pieces cooked in a tomato-based sauce.</td>
+            <td style="text-align: right;">Rs 450</td>
+        </tr>
+        <tr>
+            <td>Paneer Tikka</td>
+            <td>Grilled paneer cubes marinated in a blend of yogurt and spices, served with chutney.</td>
+            <td style="text-align: right;">Rs 390</td>
+        </tr>
+        <tr>
+            <th colspan="3">Main Course</th>
+        </tr>
+        <tr>
+            <td>Chow Mein</td>
+            <td>Stir-fried noodles with vegetables, chicken, and a savory soy-based sauce.</td>
+            <td style="text-align: right;">Rs 300</td>
+        </tr>
+        <tr>
+            <td>Schezwan Fried Rice</td>
+            <td>Spicy fried rice tossed with vegetables and a special Schezwan sauce.</td>
+            <td style="text-align: right;">Rs 310</td>
+        </tr>
+    </table>
+    
+    <!-- Specials Section -->
+    <h2>Today's Specials</h2>
+    <ul>
+        <li>Chicken Biryani</li>
+        <li>Hakka Noodles</li>
+        <li>Gulab Jamun</li>
+    </ul>
+
+    <!-- Additional Information -->
+    <p>Our restaurant is committed to providing the best dining experience. We use only the freshest ingredients in all our dishes. <span>Don't miss our chef's special dessert of the day!</span></p>
+
+    <hr>
+
+</body>
+</html>
